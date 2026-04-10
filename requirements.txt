@@ -1,0 +1,20 @@
+# Stage 1 — PDF Ingestion
+llama-parse==0.6.4
+
+# Stage 2 — QA Generation
+ollama==0.3.3
+sentence-transformers==3.0.1
+
+# Stage 3 — RAGAS Scoring
+ragas==0.1.21
+
+# Stage 4 — Parquet Output
+pandas==2.2.2
+pyarrow==17.0.0
+
+# Config
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.2
+pytest-cov==5.0.0
