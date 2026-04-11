@@ -1,3 +1,6 @@
+# schema contract
+pydantic
+
 # Stage 1 — PDF Ingestion
 llama-parse==0.6.4
 
@@ -18,3 +21,4 @@ python-dotenv==1.0.1
 # Testing
 pytest==8.3.2
 pytest-cov==5.0.0
+
